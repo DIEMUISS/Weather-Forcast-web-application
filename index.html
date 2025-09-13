@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Question 4</title>
+</head>
+<body>
+<header>
+    <h1>Weather forecast</h1>
+      <nav>
+            <ol>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Weather">Projects</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ol>
+        </nav>
+ </header> 
+    <div id="search"><input id = "input" placeholder="City name..."><button onclick="retrieve_input()">search</button></div> 
+<section id="About">Welcome to Wheather Forecast,
+     your simple and reliable source for current weather information!
+    Just type in the name of any city, and we'll instantly show you the latest weather conditions,
+     including temperature, humidity, wind speed, and more.
+      Whether you're planning your day or just curious about the weather in another part of the world,
+       our site makes it quick and easy to stay informed.
+</section>
+     <main id="Weather">
+<div id="container">
+     <div id = "discrip">
+        <p id="city_name">city</p>
+        <p id = "mood">weather</p>
+         <p id = "feel">Feels like</p>
+        <p id = "min">min</p>
+        <p id = "max">Max</p>
+        <p id = "wind">wind speed</p>
+    </div>
+    <div id="display">
+        <img id ="Icon">
+        <h3 id = "temp"></h3>
+    </div>
+</div>
+</main>
+<footer id="Contact">
+    <P>Author:Angeliqe E</P>
+    <p>Constact:0790686760</p>
+</footer>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
